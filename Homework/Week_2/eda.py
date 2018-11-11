@@ -2,7 +2,7 @@
 import csv
 import pandas as pd
 import re
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 
 def load():
@@ -26,7 +26,6 @@ def parsing(df):
 
 def central_tendency(df):
 
-    # gdp = df["GDP ($ per capita) dollars"].tolist()
     df = df["GDP ($ per capita) dollars"].str.extract('(\d+)', expand=False)
     df = df.astype(int)
     mean = df.mean()
@@ -34,22 +33,24 @@ def central_tendency(df):
     mode = df.mode()[0]
     std = df.std()
 
-    # print(df)
-    # plt.hist(df,bins=50)
+    plt.hist(df,bins=50)
     # plt.show()
 
 def five_num_tend(df):
     df = df["Infant mortality (per 1000 births)"]
-    df = df.astype(float)
 
-    minimum = df.min()
-    maximum = df.max()
-    print(minimum)
-    # first_quartile = df.quantile(0.25)
-    # print(first_quartile)
+    # replace ',' with '.' so data can be saved as floats
+    df = (df.str.split()).apply(lambda x: float(x[0].replace(',', '.')))
 
+    # print boxplot
+    plt.boxplot(df)
+    # plt.show()
 
-
+def converting(df):
+    # print(df)
+    df = df.set_index('Country')
+    df_json = df.to_json(orient="index")
+    print(df_json)
 
 
 
@@ -58,3 +59,4 @@ if __name__ == "__main__":
     parsed_df = parsing(df)
     central_tendency(parsed_df)
     five_num_tend(parsed_df)
+    converting(parsed_df)
