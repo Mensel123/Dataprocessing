@@ -3,6 +3,7 @@ import csv
 import pandas as pd
 import re
 import matplotlib.pyplot as plt
+import json
 
 
 def load():
@@ -50,8 +51,8 @@ def converting(df):
     # print(df)
     df = df.set_index('Country')
     df_json = df.to_json(orient="index")
-    print(df_json)
-
+    json_file = open("country.json", 'w')
+    json.dump(df_json, json_file)
 
 
 if __name__ == "__main__":
