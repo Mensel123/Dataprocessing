@@ -48,9 +48,14 @@ def five_num_tend(df):
     # plt.show()
 
 def converting(df):
-    # print(df)
+
+    # set country as index
     df = df.set_index('Country')
+
+    # make json with Country as index
     df_json = df.to_json(orient="index")
+
+    # open json file and write json objects into this file
     json_file = open("country.json", 'w')
     json.dump(df_json, json_file)
 
