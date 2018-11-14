@@ -87,7 +87,6 @@ def scatterplot(df):
 def regression(df):
     # indepedent variable: part of economy that is 'service'
     # depedent variable: GDP
-    # zegt aandeel 'service' iets over de economie van een land
     # does the amount of service economy influence the GDP?
 
     # remove 'unknown' and 'Nan' data
