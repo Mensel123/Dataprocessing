@@ -4,9 +4,9 @@ Explain the difference between the == operator and the === operator:
 values are precisely equal.
 
 Explain what a closure is. (Note that JavaScript programs use closures very often):
-A closure is a function that can acces the value inside its parent function.
+A closure is a function that can acces the value inside its parent function, so the function that it is inside of.
 You can call this function and then the value changes ones but you can still
-use the child function.
+use the function within the function, or the child function. This prevents the usage of too many variables.
 
 Explain what higher order functions are:
 Higher order functions use other functions.
