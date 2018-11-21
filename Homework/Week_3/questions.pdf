@@ -6,7 +6,7 @@ values are precisely equal.
 Explain what a closure is. (Note that JavaScript programs use closures very often):
 A closure is a function that can acces the value inside its parent function.
 You can call this function and then the value changes ones but you can still
-use the child function. ???
+use the child function.
 
 Explain what higher order functions are:
 Higher order functions use other functions.

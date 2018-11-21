@@ -47,11 +47,7 @@
 
       for (i = 0; i <= (totalYears.length); i=i+10){
         ctx.font = '10px arial';
-        ctx.rotate(-2 * Math.PI / 180);
-        // ctx.textAlign = 'left';
-        ctx.fillText(totalYears[i], 50 + xValues[i], 520 + i / 10 * 1);
-        ctx.resetTransform();
-
+        ctx.fillText(totalYears[i], 50 + xValues[i], 520);
       }
 
       ctx.font = '13px arial'
@@ -132,8 +128,7 @@ txtFile.onreadystatechange = function() {
           var value = totals[key];
           yValues.push(y_axis(value));
         }
-        /* draw ticks from 700 - 52000
-        increase of 450*/
+        // draw ticks from 700 - 52000, increase of 450
         ticks = []
         ticksConverted = []
         tick = 0
