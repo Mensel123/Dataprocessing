@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <script type="text/javascript" src="d3/d3.js"></script>
+        <style type="text/css">
+
+          div.bar {
+            display: inline-block;
+            width: 20px;
+            height: 75px;	/* Gets overriden by D3-assigned height below */
+            margin-right: 2px;
+            background-color: teal;
+          }
+        </style>
+    </head>
+    <body>
+        <script type="text/javascript">
+            d3.select("head").append("title").text("Energy production");
+            d3.select("body").append("title").text("Energy production of different sources");
+            d3.select("body").append("p").text("Mendel Engelaer, 10996222").style("height", "40");
+            d3.select("body").append("p").text("This bar chart shows the energy production of different energy sources from 2010 - 2017");
+
+            d3.csv("energiebalans.csv").then(function(data) {
+              // console.log(data);
+              // console.log(data[0]);
+              var totals = []
+              for(var key in data) {
+                var value = data[key];
+                totals.push(value["Energieaanbod/Totaal aanbod (TPES) (PJ)"])
+              }
+              // console.log(totals)
+
+              d3.select("body").selectAll("div")
+                .data(totals)  // <-- The answer is here!
+                .enter()
+                .append("div")
+                .attr("class", "bar")
+
+                .style("height", function(d) {
+                    var barHeight = d * 0.1;
+                    return barHeight + "px";
+                })
+                .attr("fill", "#960018");
+
+            });
+
+
+            // d3.select("body").selectAll("div")
+            //   .data(energybalans.json)  // <-- The answer is here!
+            //   .enter()
+            //   .append("div")
+            //   .attr("class", "bar")
+            //   .style("height", function(d) {
+            //       var barHeight = d * 5;
+            //       return barHeight + "px";
+            // });
+        </script>
+    </body>
+</html>
