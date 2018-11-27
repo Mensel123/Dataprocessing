@@ -2,60 +2,153 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-
         <script type="text/javascript" src="d3/d3.js"></script>
         <style type="text/css">
 
-          div.bar {
-            display: inline-block;
-            width: 20px;
-            height: 75px;	/* Gets overriden by D3-assigned height below */
-            margin-right: 2px;
-            background-color: teal;
-          }
+            .bar {
+              fill: darkgrey;
+            }
+
+            .bar:hover {
+              fill: grey;
+            }
+
+            .tick {
+              font-size: 14px;
+            }
+
+            .toolTip {
+              position: absolute;
+              display: none;
+              min-width: 20px;
+              height: auto;
+              background: none repeat scroll 0 0 #ffffff;
+              border: 2px solid black;
+              padding: 14px;
+              text-align: center;
+              border-radius: 50%
+            }
+
         </style>
     </head>
     <body>
-        <script type="text/javascript">
+        <script type="text/javascript" >
             d3.select("head").append("title").text("Energy production");
             d3.select("body").append("title").text("Energy production of different sources");
             d3.select("body").append("p").text("Mendel Engelaer, 10996222").style("height", "40");
-            d3.select("body").append("p").text("This bar chart shows the energy production of different energy sources from 2010 - 2017");
+            d3.select("body").append("p").text("Deze staafgrafiek laat de energieproductie van verschillende bronnen zien van 2017");
 
-            d3.csv("energiebalans.csv").then(function(data) {
-              // console.log(data);
-              // console.log(data[0]);
-              var totals = []
-              for(var key in data) {
-                var value = data[key];
-                totals.push(value["Energieaanbod/Totaal aanbod (TPES) (PJ)"])
+            // load csv
+            d3.csv("energiebalans_2.csv").then(function(data) {
+              var totalProduce = [];
+              var id = [];
+
+              // iterate over data and select key and attached value
+              for(i = 0; i < data.length; i++){
+                var value = data[i];
+                new_amount = parseInt(value["Energieaanbod/Totaal aanbod (TPES) (PJ)"])
+                new_name = value["Energiedragers"]
+                totalProduce.push(new_amount)
+                id.push(new_name);
               }
-              // console.log(totals)
 
-              d3.select("body").selectAll("div")
-                .data(totals)  // <-- The answer is here!
+              // Use the window's width to determine the high and width of svg
+              var margin = {top: 50, right: 100, bottom: 250, left: 120}
+                , w = window.innerWidth - margin.left - margin.right
+                , h = window.innerHeight - margin.top - margin.bottom;
+
+              var barPadding = 10;
+
+              // make y and x scale function to scale datapoints
+              var yScale = d3.scaleLinear()
+                             .domain([0, d3.max(totalProduce, function(d) { return d; })])
+                             .range([h, 0]);
+              var xScale = d3.scaleBand()
+                              .domain(id)
+                              .range([0, w])
+
+              /* create SVG element and within this a "g" element that contains
+                 multiple svg's*/
+              var svg = d3.select("body")
+                .append("svg")
+                .attr("width", w + margin.left + margin.right)
+                .attr("height", h + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+              // make tooltip container to track and display mouse movements
+              var tooltip = d3.select("body").append("div")
+                .attr("class", "toolTip");
+
+              // make svg elements for all datapoints
+              svg.selectAll("rect")
+                .data(totalProduce)
                 .enter()
-                .append("div")
+                .append("rect")
                 .attr("class", "bar")
 
-                .style("height", function(d) {
-                    var barHeight = d * 0.1;
-                    return barHeight + "px";
+                // determine x value for datapoint d
+                .attr("x", function(d, i) {
+                  return i * (w / totalProduce.length);
                 })
-                .attr("fill", "#960018");
 
+                // determine scaled y value for datapoint d
+                .attr("y", function(d) {
+                  return yScale(d);
+                })
+
+                // determine width and height of bars
+                .attr("width", w / totalProduce.length - barPadding)
+                .attr("height", function(d) {
+                  return h - yScale(d)
+                })
+
+                /* add function to register mousemovement and display the value
+                of the bar the mouse hovers over*/
+                .on("mousemove", function(d){
+                  tooltip
+                    .style("left", (d3.event.pageX - 30) + "px")
+                    .style("top", (d3.event.pageY - 55) + "px")
+                    .style("display", "inline-block")
+                    .html(d);
+                  })
+
+                // show nothing when mouse doesnt hover over bar
+      		      .on("mouseout", function(d){ tooltip.style("display", "none");});
+
+              // make x and y axis using scale functions
+              var yAxis = d3.axisLeft()
+                        .scale(yScale)
+              var xAxis = d3.axisBottom()
+                            .scale(xScale)
+                            .ticks(id.length)
+
+              // add y axis svg containing all the y-axis elements
+              svg.append("g")
+                .attr("class", "y axis")
+                .call(yAxis);
+
+              /* add x axis containing all the x-axis elements including the
+              x-labels*/
+              svg.append("g")
+                .attr("class", "x axis")
+                .attr("transform", "translate(0," + h + ")")
+                .call(xAxis)
+                .selectAll("text")
+                        .style("text-anchor", "end")
+                        .attr("dx", "-.8em")
+                        .attr("dy", ".15em")
+                        .attr("transform", "rotate(-20)")
+
+              // add y-label
+              svg.append('text')
+                  .attr('x', -180)
+                  .attr('y', -50)
+                  .attr('transform', 'rotate(-90)')
+                  .attr('text-anchor', 'middle')
+                  .text("Energieaanbod/Totaal aanbod (TPES) (PJ)")
             });
-
-
-            // d3.select("body").selectAll("div")
-            //   .data(energybalans.json)  // <-- The answer is here!
-            //   .enter()
-            //   .append("div")
-            //   .attr("class", "bar")
-            //   .style("height", function(d) {
-            //       var barHeight = d * 5;
-            //       return barHeight + "px";
-            // });
         </script>
+        </svg>
     </body>
 </html>
