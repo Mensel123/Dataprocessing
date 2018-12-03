@@ -1,0 +1,59 @@
+/* Mendel Engelaer 10996222 */
+/* Made slider with help from:
+   source: https://www.w3schools.com/howto/howto_js_rangeslider.asp*/
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 40%; /* Full-width */
+    height: 10px; /* Specified height */
+    border-radius: 5px;
+    background: darkgrey; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.8; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+body {
+  background-color: #eee;
+  font-family: helvetica, sans-serif;
+  font-weight: 100;
+}
+
+.tick {
+  font-size: 12px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.toolTip {
+position: absolute;
+display: none;
+min-width: 5px;
+height: auto;
+background: none repeat scroll 0 0 #ffffff;
+border: 2px solid black;
+padding: 10px;
+text-align: center;
+/* border-radius: 50% */
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;

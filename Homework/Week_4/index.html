@@ -39,7 +39,7 @@
             d3.select("body").append("p").text("Deze staafgrafiek laat de energieproductie van verschillende bronnen zien van 2017");
 
             // load csv
-            d3.csv("energiebalans_2.csv").then(function(data) {
+            d3.csv("https://raw.githubusercontent.com/Mensel123/Dataprocessing/master/Homework/Week_4/Energiebalans_2.csv").then(function(data) {
               var totalProduce = [];
               var id = [];
 
