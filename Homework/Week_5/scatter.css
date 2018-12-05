@@ -12,7 +12,7 @@
     opacity: 0.8; /* Set transparency (for mouse-over effects on hover) */
     -webkit-transition: .2s; /* 0.2 seconds transition on hover */
     transition: opacity .2s;
-
+    cursor: pointer;
 }
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
@@ -38,22 +38,33 @@ body {
   font-size: 20px;
 }
 
-.toolTip {
-position: absolute;
-display: none;
-min-width: 5px;
-height: auto;
-background: none repeat scroll 0 0 #ffffff;
-border: 2px solid black;
-padding: 10px;
-text-align: center;
-/* border-radius: 50% */
+.plotTitle {
+  font-size: 17px;
 }
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: #555;
-    color: #fff;
+
+.tooltip {
+    position: absolute;
     text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
+    width: 60px;
+    height: 28px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: blue;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    position: relative;
+    left: 30px;
+    bottom: -100px;
+}

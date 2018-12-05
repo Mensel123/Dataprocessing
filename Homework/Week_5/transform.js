@@ -1,4 +1,5 @@
 // Mendel Engelaer 10996222
+// Edited from: https://data.mprog.nl/course/10%20Homework/100%20D3%20Scatterplot/scripts/transformResponseV1.js
 
 function transformResponse(data){
 
@@ -38,13 +39,13 @@ function transformResponse(data){
     strings.forEach(function(string, index){
       let country;
       let country_status = false;
-        // add country name to object
-        if (typeof data.structure.dimensions.series[1].values[index] != "undefined"){
 
+        // add country name to object if present
+        if (typeof data.structure.dimensions.series[1].values[index] != "undefined"){
           country_status = true;
           country = data.structure.dimensions.series[1].values[index]["name"]
         }
-        // console.log(country);
+
         // for each observation and its index
         observation.values.forEach(function(obs, index){
 
@@ -54,6 +55,7 @@ function transformResponse(data){
                 // set up temporary object
                 let tempObj = {};
 
+                // when country name is present: save to tempObj
                 if (country_status === true){
                   tempObj["Country"] = country
                 }
