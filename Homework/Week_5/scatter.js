@@ -16,12 +16,12 @@ window.onload = function() {
       .text("Name: Mendel Engelaer, Student number: 10996222, Date: 5/12/18")
       .style("height", "40");
   d3.select("body").append("a")
-    .attr("href", "http://stats.oecd.org/SDMX-JSON/data/MSTI_PUB/TH_WRXRS.FRA+DEU+KOR+NLD+PRT+GBR/all?startTime=2007&endTime=2015")
+    .attr("href", "https://stats.oecd.org/SDMX-JSON/data/MSTI_PUB/TH_WRXRS.FRA+DEU+KOR+NLD+PRT+GBR/all?startTime=2007&endTime=2015")
     .text("Link to Dataset1")
     .attr("class", "button")
   d3.select("body")
     .append("a")
-      .attr("href", "http://stats.oecd.org/SDMX-JSON/data/HH_DASH/FRA+DEU+KOR+NLD+PRT+GBR.COCONF.A/all?startTime=2007&endTime=2015")
+      .attr("href", "https://stats.oecd.org/SDMX-JSON/data/HH_DASH/FRA+DEU+KOR+NLD+PRT+GBR.COCONF.A/all?startTime=2007&endTime=2015")
       .text("Link to Dataset2")
       .attr("class", "button")
 
