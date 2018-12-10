@@ -1,0 +1,233 @@
+﻿"LOCATION","Country","INDICATOR","Indicator","MEASURE","Measure","INEQUALITY","Inequality","Unit Code","Unit","PowerCode Code","PowerCode","Reference Period Code","Reference Period","Value","Flag Codes","Flags"
+"AUS","Australia","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,5,,
+"AUT","Austria","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,16,,
+"BEL","Belgium","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,15,,
+"CAN","Canada","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,7,,
+"CZE","Czech Republic","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,20,,
+"DNK","Denmark","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,9,,
+"FIN","Finland","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,6,,
+"FRA","France","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,13,,
+"DEU","Germany","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,14,,
+"GRC","Greece","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,18,,
+"HUN","Hungary","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,19,,
+"ISL","Iceland","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,3,,
+"IRL","Ireland","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,7,,
+"ITA","Italy","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,18,,
+"JPN","Japan","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,14,,
+"KOR","Korea","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,28,,
+"LUX","Luxembourg","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,12,,
+"MEX","Mexico","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,16,,
+"NLD","Netherlands","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,14,,
+"NZL","New Zealand","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,5,,
+"NOR","Norway","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,5,,
+"POL","Poland","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,22,,
+"PRT","Portugal","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,10,,
+"SVK","Slovak Republic","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,21,,
+"ESP","Spain","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,11,,
+"SWE","Sweden","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,6,,
+"CHE","Switzerland","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,15,,
+"TUR","Turkey","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,20,,
+"GBR","United Kingdom","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,11,,
+"USA","United States","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,10,,
+"BRA","Brazil","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,10,,
+"CHL","Chile","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,16,,
+"EST","Estonia","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,8,,
+"ISR","Israel","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,21,,
+"LVA","Latvia","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,11,,
+"RUS","Russia","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,15,,
+"SVN","Slovenia","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,16,,
+"ZAF","South Africa","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,22,,
+"OECD","OECD - Total","EQ_AIRP","Air pollution","L","Value","TOT","Total","MICRO_M3","Micrograms per cubic metre","0","Units",,,14,,
+"AUS","Australia","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,5,"E","Estimated value"
+"AUT","Austria","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,16,"E","Estimated value"
+"BEL","Belgium","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,15,"E","Estimated value"
+"CAN","Canada","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,7,"E","Estimated value"
+"CZE","Czech Republic","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,20,"E","Estimated value"
+"DNK","Denmark","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,9,"E","Estimated value"
+"FIN","Finland","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,6,"E","Estimated value"
+"FRA","France","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,13,"E","Estimated value"
+"DEU","Germany","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,14,"E","Estimated value"
+"GRC","Greece","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,18,"E","Estimated value"
+"HUN","Hungary","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,19,"E","Estimated value"
+"ISL","Iceland","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,3,"E","Estimated value"
+"IRL","Ireland","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,7,"E","Estimated value"
+"ITA","Italy","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,18,"E","Estimated value"
+"JPN","Japan","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,14,"E","Estimated value"
+"KOR","Korea","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,28,"E","Estimated value"
+"LUX","Luxembourg","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,12,"E","Estimated value"
+"MEX","Mexico","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,16,"E","Estimated value"
+"NLD","Netherlands","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,14,"E","Estimated value"
+"NZL","New Zealand","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,5,"E","Estimated value"
+"NOR","Norway","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,5,"E","Estimated value"
+"POL","Poland","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,22,"E","Estimated value"
+"PRT","Portugal","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,10,"E","Estimated value"
+"SVK","Slovak Republic","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,21,"E","Estimated value"
+"ESP","Spain","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,11,"E","Estimated value"
+"SWE","Sweden","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,6,"E","Estimated value"
+"CHE","Switzerland","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,15,"E","Estimated value"
+"TUR","Turkey","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,20,"E","Estimated value"
+"GBR","United Kingdom","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,11,"E","Estimated value"
+"USA","United States","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,10,"E","Estimated value"
+"BRA","Brazil","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,10,"E","Estimated value"
+"CHL","Chile","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,16,"E","Estimated value"
+"EST","Estonia","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,8,"E","Estimated value"
+"ISR","Israel","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,21,"E","Estimated value"
+"LVA","Latvia","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,11,"E","Estimated value"
+"RUS","Russia","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,15,"E","Estimated value"
+"SVN","Slovenia","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,16,"E","Estimated value"
+"ZAF","South Africa","EQ_AIRP","Air pollution","L","Value","MN","Men","MICRO_M3","Micrograms per cubic metre","0","Units",,,22,"E","Estimated value"
+"AUS","Australia","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,5,"E","Estimated value"
+"AUT","Austria","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,16,"E","Estimated value"
+"BEL","Belgium","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,15,"E","Estimated value"
+"CAN","Canada","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,7,"E","Estimated value"
+"CZE","Czech Republic","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,20,"E","Estimated value"
+"DNK","Denmark","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,9,"E","Estimated value"
+"FIN","Finland","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,6,"E","Estimated value"
+"FRA","France","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,13,"E","Estimated value"
+"DEU","Germany","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,14,"E","Estimated value"
+"GRC","Greece","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,18,"E","Estimated value"
+"HUN","Hungary","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,19,"E","Estimated value"
+"ISL","Iceland","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,3,"E","Estimated value"
+"IRL","Ireland","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,7,"E","Estimated value"
+"ITA","Italy","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,18,"E","Estimated value"
+"JPN","Japan","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,14,"E","Estimated value"
+"KOR","Korea","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,28,"E","Estimated value"
+"LUX","Luxembourg","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,12,"E","Estimated value"
+"MEX","Mexico","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,16,"E","Estimated value"
+"NLD","Netherlands","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,14,"E","Estimated value"
+"NZL","New Zealand","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,5,"E","Estimated value"
+"NOR","Norway","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,5,"E","Estimated value"
+"POL","Poland","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,22,"E","Estimated value"
+"PRT","Portugal","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,10,"E","Estimated value"
+"SVK","Slovak Republic","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,21,"E","Estimated value"
+"ESP","Spain","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,11,"E","Estimated value"
+"SWE","Sweden","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,6,"E","Estimated value"
+"CHE","Switzerland","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,15,"E","Estimated value"
+"TUR","Turkey","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,20,"E","Estimated value"
+"GBR","United Kingdom","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,11,"E","Estimated value"
+"USA","United States","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,10,"E","Estimated value"
+"BRA","Brazil","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,10,"E","Estimated value"
+"CHL","Chile","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,16,"E","Estimated value"
+"EST","Estonia","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,8,"E","Estimated value"
+"ISR","Israel","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,21,"E","Estimated value"
+"LVA","Latvia","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,11,"E","Estimated value"
+"RUS","Russia","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,15,"E","Estimated value"
+"SVN","Slovenia","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,16,"E","Estimated value"
+"ZAF","South Africa","EQ_AIRP","Air pollution","L","Value","WMN","Women","MICRO_M3","Micrograms per cubic metre","0","Units",,,22,"E","Estimated value"
+"AUS","Australia","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,92,,
+"AUT","Austria","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,93,,
+"BEL","Belgium","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,84,,
+"CAN","Canada","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,91,,
+"CZE","Czech Republic","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,87,,
+"DNK","Denmark","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,94,,
+"FIN","Finland","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,94,,
+"FRA","France","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,82,,
+"DEU","Germany","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,93,,
+"GRC","Greece","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,69,,
+"HUN","Hungary","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,76,,
+"ISL","Iceland","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,99,,
+"IRL","Ireland","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,82,,
+"ITA","Italy","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,71,,
+"JPN","Japan","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,86,,
+"KOR","Korea","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,78,,
+"LUX","Luxembourg","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,85,,
+"MEX","Mexico","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,67,,
+"NLD","Netherlands","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,93,,
+"NZL","New Zealand","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,90,,
+"NOR","Norway","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,96,,
+"POL","Poland","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,80,,
+"PRT","Portugal","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,87,,
+"SVK","Slovak Republic","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,82,,
+"ESP","Spain","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,73,,
+"SWE","Sweden","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,95,,
+"CHE","Switzerland","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,96,,
+"TUR","Turkey","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,63,,
+"GBR","United Kingdom","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,85,,
+"USA","United States","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,84,,
+"BRA","Brazil","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,72,,
+"CHL","Chile","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,69,,
+"EST","Estonia","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,82,,
+"ISR","Israel","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,67,,
+"LVA","Latvia","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,77,,
+"RUS","Russia","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,54,,
+"SVN","Slovenia","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,89,,
+"ZAF","South Africa","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,69,,
+"OECD","OECD - Total","EQ_WATER","Water quality","L","Value","TOT","Total","PC","Percentage","0","Units",,,81,,
+"AUS","Australia","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,93,,
+"AUT","Austria","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,93,,
+"BEL","Belgium","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,85,,
+"CAN","Canada","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,93,,
+"CZE","Czech Republic","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,88,,
+"DNK","Denmark","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,95,,
+"FIN","Finland","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,94,,
+"FRA","France","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,80,,
+"DEU","Germany","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,94,,
+"GRC","Greece","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,71,,
+"HUN","Hungary","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,76,,
+"ISL","Iceland","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,98,,
+"IRL","Ireland","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,82,,
+"ITA","Italy","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,72,,
+"JPN","Japan","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,87,,
+"KOR","Korea","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,78,,
+"LUX","Luxembourg","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,85,,
+"MEX","Mexico","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,66,,
+"NLD","Netherlands","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,94,,
+"NZL","New Zealand","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,91,,
+"NOR","Norway","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,97,,
+"POL","Poland","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,82,,
+"PRT","Portugal","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,88,,
+"SVK","Slovak Republic","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,82,,
+"ESP","Spain","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,73,,
+"SWE","Sweden","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,96,,
+"CHE","Switzerland","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,96,,
+"TUR","Turkey","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,65,,
+"GBR","United Kingdom","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,85,,
+"USA","United States","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,86,,
+"BRA","Brazil","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,76,,
+"CHL","Chile","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,69,,
+"EST","Estonia","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,82,,
+"ISR","Israel","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,65,,
+"LVA","Latvia","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,77,,
+"RUS","Russia","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,57,,
+"SVN","Slovenia","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,90,,
+"ZAF","South Africa","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,70,,
+"OECD","OECD - Total","EQ_WATER","Water quality","L","Value","MN","Men","PC","Percentage","0","Units",,,81,,
+"AUS","Australia","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,92,,
+"AUT","Austria","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,93,,
+"BEL","Belgium","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,83,,
+"CAN","Canada","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,89,,
+"CZE","Czech Republic","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,86,,
+"DNK","Denmark","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,94,,
+"FIN","Finland","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,94,,
+"FRA","France","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,84,,
+"DEU","Germany","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,93,,
+"GRC","Greece","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,68,,
+"HUN","Hungary","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,76,,
+"ISL","Iceland","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,99,,
+"IRL","Ireland","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,82,,
+"ITA","Italy","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,70,,
+"JPN","Japan","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,85,,
+"KOR","Korea","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,77,,
+"LUX","Luxembourg","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,84,,
+"MEX","Mexico","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,68,,
+"NLD","Netherlands","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,92,,
+"NZL","New Zealand","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,89,,
+"NOR","Norway","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,96,,
+"POL","Poland","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,78,,
+"PRT","Portugal","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,86,,
+"SVK","Slovak Republic","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,83,,
+"ESP","Spain","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,72,,
+"SWE","Sweden","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,94,,
+"CHE","Switzerland","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,95,,
+"TUR","Turkey","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,61,,
+"GBR","United Kingdom","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,86,,
+"USA","United States","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,83,,
+"BRA","Brazil","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,68,,
+"CHL","Chile","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,69,,
+"EST","Estonia","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,82,,
+"ISR","Israel","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,68,,
+"LVA","Latvia","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,76,,
+"RUS","Russia","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,52,,
+"SVN","Slovenia","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,89,,
+"ZAF","South Africa","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,68,,
+"OECD","OECD - Total","EQ_WATER","Water quality","L","Value","WMN","Women","PC","Percentage","0","Units",,,80,,
