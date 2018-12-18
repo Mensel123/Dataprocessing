@@ -1,25 +1,21 @@
+/* Mendel Engelaer, 10996222, Dataprocessing Linked Views */
+
 body {
   background-color: #eee;
+  font-family: helvetica, sans-serif;
+  font-weight: 100;
 }
 .error_message {
   font-size: 20px;
-  font-family: helvetica, sans-serif;
-  font-weight: 100;
 }
 .tick {
   font-size: 12px;
-  font-family: helvetica, sans-serif;
-  font-weight: 100;
 }
 .yLabel {
   font-size: 17px;
-  font-family: helvetica, sans-serif;
-  font-weight: 100;
 }
 .legend {
   font-size: 17px;
-  font-family: helvetica, sans-serif;
-  font-weight: 100;
 }
 .tooltip_2 {
     position: absolute;

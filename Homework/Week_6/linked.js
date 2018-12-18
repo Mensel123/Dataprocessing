@@ -1,4 +1,28 @@
+// Mendel Engelaer, 10996222, Dataprocessing Linked Views
+
 window.onload = function() {
+
+  // add title, description and links to datasets
+  d3.select("head")
+    .append("title")
+      .text("Scatterplot");
+  d3.select("body")
+    .append("p")
+      .attr("class", "title")
+      .text("World map showing Average Life Expectancy per country")
+      .style("font-size", "45px");
+  d3.select("body")
+    .append("p")
+      .text("Name: Mendel Engelaer, Student number: 10996222, Date: 5/12/18")
+      .style("font-size", "10");
+  d3.select("body")
+    .append("p")
+      .text("Click on country to show additional information in barchart")
+      .style("font-size", "10");
+  d3.select("body")
+    .append("p")
+      .text("Datasource: http://happyplanetindex.org")
+
 
   // function to show numbers correctly
   var format = d3.format(",");
@@ -66,7 +90,7 @@ window.onload = function() {
   function map(l, properties){
     var margin = {top: -300, right: 0, bottom: -200, left: -50},
                 width = 700 - margin.left - margin.right,
-                height = 300 - margin.top - margin.bottom;
+                height = 200 - margin.top - margin.bottom;
 
     // scale colours to increasing "Average Life Expectancy"
     var color = d3.scaleThreshold()
