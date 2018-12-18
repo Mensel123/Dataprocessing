@@ -13,7 +13,7 @@ window.onload = function() {
       .style("font-size", "45px");
   d3.select("body")
     .append("p")
-      .text("Name: Mendel Engelaer, Student number: 10996222, Date: 5/12/18")
+      .text("Name: Mendel Engelaer, Student number: 10996222, Date: 18/12/18")
       .style("font-size", "10");
   d3.select("body")
     .append("p")
